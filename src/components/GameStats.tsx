@@ -1,8 +1,8 @@
 import React from 'react';
-import type { GameStats } from '../types/tetris';
+import type { GameStats as GameStatsType } from '../types/tetris';
 
 interface GameStatsProps {
-  stats: GameStats;
+  stats: GameStatsType;
   gameOver: boolean;
   paused: boolean;
 }
